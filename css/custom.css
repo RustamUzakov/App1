@@ -1,0 +1,116 @@
+body{
+	
+	font-size: 20px;
+	font-family: Agency FB;
+	font-weight: 5px;
+}
+
+/*.row{
+border:1px solid black;
+}
+
+.col-md-1 , .col-md-2, .col-md-3{
+	border:1px solid red;
+}*/
+
+.inputBox{
+	width: 20%;
+	height: 40px;
+}
+
+
+
+.startMondaySelect,.startTuesdaySelect , .startWednesdaySelect ,.startThursdaySelect, .startFridaySelect, .startSaturdaySelect , .startSundaySelect{
+	width: 25%;
+	font-size: 15px;
+	height: 40px;
+	}
+
+	
+
+.finishMondaySelect,.finishTuesdaySelect ,.finishWednesdaySelect ,.finishThursdaySelect, .finishFridaySelect , .finishSaturdaySelect , .finishSundaySelect{
+	width: 25%;
+	font-size: 15px;
+	height: 40px;
+	}
+	
+
+#totalMondayHours, #totalMondayMinutes,#totalTuesdayHours, #totalTuesdayMinutes , #totalWednesdayMinutes, #totalWednesdayHours,#totalThursdayHours,#totalThursdayMinutes,#totalFridayMinutes,#totalFridayHours,#totalSaturdayMinutes,#totalSaturdayHours , #totalSundayMinutes, #totalSundayHours , #totalWeekHours , #totalWeekMinutes	{
+	border: 1px solid black;
+	width: 20%;
+	height: 40px;
+	float: left;
+	margin:2px;
+	text-align: center;
+	font-weight: bold;
+
+}	
+
+
+.btn{
+	margin-left:20px;
+	margin-top: 5px;	
+}
+
+.titles{
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	background: rgba(78, 217, 217, 0.91);
+	color: white;
+	text-align: left;
+}
+#weekDay{
+	font-size: 25px;
+}
+.breaker{
+	height: 20px;
+}
+
+.breakerSmall{
+	height: 3px;
+		background: rgba(78, 217, 217, 0.5);
+
+}
+.breakerSmallW{
+	height: 3px;
+		background: rgba(78, 217, 217, 0.2);
+
+}
+
+.weekends{
+		background: rgba(78, 217, 217, 0.2);
+}
+
+/*#totalWeekMinutes , #totalWeekHours{
+	
+	
+}*/
+.totalWeekHours , .totalWeekMinutes{
+	
+	position: relative;
+	left: 8px;
+}
+
+#btnGetTheTotalWeek{
+	position: relative;
+	left: 8px;
+}
+
+.titlesBot{
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	background: rgba(78, 217, 217, 0.91);
+	color: black;
+	text-align: left;
+}
+
+
+#userRegistrationForm{
+	padding-left: 30%;
+}
+
+#userLoginForm{
+	padding-left: 30%;
+}
